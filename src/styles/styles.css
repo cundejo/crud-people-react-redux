@@ -1,0 +1,12 @@
+.container-fluid {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  color: #333;
+  height: 100vh;
+  overflow: auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
