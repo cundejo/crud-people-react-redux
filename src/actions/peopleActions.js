@@ -8,8 +8,8 @@ export function loadPeopleSuccess(people) {
 export function loadPeople() {
   return dispatch => {
     return PeopleApi.getAllPeople()
-      .then(authors => {
-        dispatch(loadPeopleSuccess(authors));
+      .then(people => {
+        dispatch(loadPeopleSuccess(people));
       })
       .catch(error => {
         throw(error);
